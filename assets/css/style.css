@@ -1,31 +1,35 @@
-.mundo{
+body{
     display: flex;
 }
 .contactos {
     display: flex;
     flex-direction: column;
-    width: 25em;
-    height: 50em;
+    flex-basis: 20%;
+    min-height: 100vh;
     background-color: blueviolet;
-
 }
 .cards{
     display: flex;
 }
 .card{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     width: 15em;
     border: solid 2px;
     margin: 5px;
     padding: 5px;
 }
 .card-body{
+    display: flex;
     flex-grow: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
 }
 .foto-perfil{
-    height: 5em;
+    height: 3em;
     border-radius: 50px;
+    flex-grow: 1;
 }
 
 .flex-container {
@@ -33,12 +37,17 @@
     align-items: center;
     justify-content: center;
     background-color: lightgray;
-    width: 50em;
-    height: 50em;
-
+    min-height: 100vh;
+    flex-basis: 80%;
+}
+.icono{
+    display: flex;
+    justify-content: end;
 }
 
 .logo {
     width: 10em;
     height: 10em;
 }
+/* font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif; */

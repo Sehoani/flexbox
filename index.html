@@ -6,21 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f842b1a803.js" crossorigin="anonymous"></script>
+    <title>Flexbox</title>
 </head>
 
 <body>
     <div class="mundo">
-        <div class="contactos">
+        <div class="contactos flex-item item-1">
             <div class="cards">
-                
+
                 <div class="card">
                     <div class="card-body">
-                        <img src="assets/img/maria.jpg" alt="foto de perfil maria" class="foto-perfil">
+                        <div>
+                            <img src="assets/img/maria.jpg" alt="foto de perfil maria" class="foto-perfil" class="flex">
+                        </div>
                     </div>
-                    <div class="card-body"> 
-                        Maria<br>
+                    <div class="card-body">
+                        Maria <br>
                         Activa ahora
+
+                    </div>
+                    <div class="icono">
+                        <i class="fa-regular fa-message"></i>
+                        <i class="fa-sharp fa-solid fa-bars"></i>
                     </div>
 
                 </div>
@@ -28,13 +40,13 @@
             </div>
 
         </div>
-        <h1>Hola mundo</h1>
     </div>
 
 
-    <div class="flex-container">
-        <img src="assets/img/hand.png" alt="logo principal" class="logo">
-
+    <div class="flex-container flex-item item-2">
+        <div>
+            <img src="assets/img/hand.png" alt="logo principal" class="logo">
+        </div>
     </div>
     </div>
 </body>
