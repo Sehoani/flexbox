@@ -1,0 +1,44 @@
+.mundo{
+    display: flex;
+}
+.contactos {
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    height: 50em;
+    background-color: blueviolet;
+
+}
+.cards{
+    display: flex;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    border: solid 2px;
+    margin: 5px;
+    padding: 5px;
+}
+.card-body{
+    flex-grow: 1;
+}
+.foto-perfil{
+    height: 5em;
+    border-radius: 50px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    width: 50em;
+    height: 50em;
+
+}
+
+.logo {
+    width: 10em;
+    height: 10em;
+}
